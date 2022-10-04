@@ -3,10 +3,10 @@ package io.javabrains.moviecatalogservice.models;
 import java.util.Arrays;
 import java.util.List;
 
-public class UserRating {
+public class QuestionAnswerRating {
 
     private String userId;
-    private List<Rating> ratings;
+    private List<QuestionAnswer> questionAnswers;
 
     public String getUserId() {
         return userId;
@@ -16,12 +16,12 @@ public class UserRating {
         this.userId = userId;
     }
 
-    public List<Rating> getRatings() {
-        return ratings;
+    public List<QuestionAnswer> getRatings() {
+        return questionAnswers;
     }
 
-    public void setRatings(List<Rating> ratings) {
-        this.ratings = ratings;
+    public void setRatings(List<QuestionAnswer> questionAnswers) {
+        this.questionAnswers = questionAnswers;
     }
 
 }
