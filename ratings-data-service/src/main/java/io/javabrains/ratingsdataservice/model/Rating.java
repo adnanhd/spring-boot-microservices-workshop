@@ -2,20 +2,20 @@ package io.javabrains.ratingsdataservice.model;
 
 public class Rating {
 
-    private String movieId;
+    private String questionId;
     private int rating;
 
-    public Rating(String movieId, int rating) {
-        this.movieId = movieId;
+    public Rating(String questionId, int rating) {
+        this.questionId = questionId;
         this.rating = rating;
     }
 
-    public String getMovieId() {
-        return movieId;
+    public String getQuestionId() {
+        return questionId;
     }
 
-    public void setMovieId(String movieId) {
-        this.movieId = movieId;
+    public void setQuestionId(String questionId) {
+        this.questionId = questionId;
     }
 
     public int getRating() {
